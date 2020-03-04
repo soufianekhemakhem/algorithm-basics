@@ -1,4 +1,4 @@
-const replaceAt = (str, index, c) => {
+export const replaceAt = (str, index, c) => {
     return str.substr(0, index) + c + str.substr(index + 1)
 }
 const inverse = (str) => {

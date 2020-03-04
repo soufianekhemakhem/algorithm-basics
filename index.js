@@ -1,7 +1,7 @@
 import decalage from "./src/decalage"
 import maxEcart from "./src/maxEcart"
 import palindrome from "./src/palindrome"
-import inverse from "./src/inverse"
+import inverse, { replaceAt } from "./src/inverse"
 import isSorted from "./src/isSorted"
 import longestSequence from "./src/longestSequence"
 import fibonacci from "./src/fibonacci"
@@ -51,4 +51,8 @@ result = longestSequence(array)
 
 number = 9
 result = fibonacci(number)
+// console.log(result);
+
+str = "Hel?o world"
+result = replaceAt(str, 3, "l")
 // console.log(result);
