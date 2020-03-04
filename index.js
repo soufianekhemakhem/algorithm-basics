@@ -16,10 +16,10 @@ let number = 0
 
 array = [9, 2, 7, 2, 0, 9, 9, 13]
 result = decalage(array)
-console.log(result);
+// console.log(result);
 
 result = maxEcart(array)
-// console.log(result);
+console.log(result);
 
 str = "2020"
 result = palindrome(str)
