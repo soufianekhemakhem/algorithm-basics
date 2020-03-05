@@ -7,6 +7,10 @@ import longestSequence from "./src/longestSequence"
 import fibonacci from "./src/fibonacci"
 import maxOccurence from "./src/maxOccurence"
 import maxOccurenceObject from "./src/maxOccurencePlus"
+import sortArray from "./src/sortArray"
+import factorielle from "./src/factorielle"
+import fact from "./src/factorielRecursive"
+
 
 
 let result
@@ -19,7 +23,7 @@ result = decalage(array)
 // console.log(result);
 
 result = maxEcart(array)
-console.log(result);
+// console.log(result);
 
 str = "2020"
 result = palindrome(str)
@@ -55,4 +59,16 @@ result = fibonacci(number)
 
 str = "Hel?o world"
 result = replaceAt(str, 3, "l")
+// console.log(result);
+
+array = [2, 8, 0, 3, 6, 15]
+result = sortArray(array)
+// console.log(result);
+
+number = 130
+result = factorielle(number)
+// console.log(result);
+
+number = 5
+result = fact(number)
 // console.log(result);
